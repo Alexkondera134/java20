@@ -1,0 +1,11 @@
+package core;
+
+public class Pessoa {
+	String nome;
+	String email;
+
+	void exibir() {
+		System.out.println("Pessoa: " + nome + "/" + email);
+	}
+
+}

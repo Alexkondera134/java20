@@ -1,0 +1,21 @@
+package core;
+
+public class AppQueUsa {
+	public static void main(String[] args) {
+		
+		Pessoa p = new Pessoa();
+		
+		p.nome = "Alex";
+		p.email = "alex@";
+		p.exibir();
+		
+		Estudante e = new Estudante();
+		e.matricula = 123;
+		e.email = "@@@@@";
+		e.nome = "Ronaldo";
+		e.curso = "Mat";
+		
+		e.exibir();
+	}
+
+}

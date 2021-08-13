@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;proj_Bomba_de_Combustivel.BombaCombustivel.java&apos; to &apos;Posto.java&apos;&#x0D;&#x0A;- Original project: &apos;proj_Bomba_de_Combustivel&apos;&#x0D;&#x0A;- Original element: &apos;proj_Bomba_de_Combustivel.BombaCombustivel.java&apos;&#x0D;&#x0A;- Renamed element: &apos;proj_Bomba_de_Combustivel.Posto.java&apos;" description="Rename compilation unit &apos;BombaCombustivel.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;proj_Bomba_de_Combustivel{BombaCombustivel.java" name="Posto.java" references="false" stamp="1628517842116" version="1.0"/>
+</session>

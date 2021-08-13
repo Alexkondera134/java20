@@ -1,0 +1,38 @@
+package core;
+
+public class Horista extends Funcionario{
+		
+	private double valorHora;
+	private int numeroHora;
+	
+	public Horista(int numRegistro, String nome) {
+		super(numRegistro, nome);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularSalario() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double getValorHora() {
+		return valorHora;
+	}
+
+	public void setValorHora(double valorHora) {
+		this.valorHora = valorHora;
+	}
+
+	public int getNumeroHora() {
+		return numeroHora;
+	}
+
+	public void setNumeroHora(int numeroHora) {
+		this.numeroHora = numeroHora;
+	}
+	
+	
+	
+
+}

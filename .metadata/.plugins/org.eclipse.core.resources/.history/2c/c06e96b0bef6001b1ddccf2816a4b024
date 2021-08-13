@@ -1,0 +1,36 @@
+
+public class Operacoes {
+	public static void main(String[] args) {
+		
+		ContaCorrente cli1, cli2, cli3;
+		
+		cli1 = new ContaCorrente();
+		cli2 = new ContaCorrente();
+		cli3 = new ContaCorrente();
+		
+		cli2.nomeTitular = "Samuel";
+		cli2.cpf="123.124.125.90";
+		cli2.numeroConta = 4969;
+		cli2.digitoVer = 9;
+		cli2.saldo = 4;
+		
+		cli3.nomeTitular = "Samuel";
+		cli3.cpf="123.124.125.90";
+		cli3.numeroConta = 4969;
+		cli3.digitoVer = 9;
+		cli3.saldo = 4;
+		
+		cli1.nomeTitular = "Samuel";
+		cli1.cpf="123.124.125.90";
+		cli1.numeroConta = 4969;
+		cli1.digitoVer = 9;
+		cli1.saldo = 4;
+		
+		cli2.ExibirInfo();
+		cli2.Depositar(20);
+		
+		
+		
+	}
+
+}

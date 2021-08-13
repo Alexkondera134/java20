@@ -1,0 +1,62 @@
+
+public class Funcionario {
+
+	private int funcional;
+	private String nome, email;
+	private double salario;
+
+	public String exibirInfo() {
+		return "Número da funcional: " + funcional + "\n" + "Nome do funcionário: " + nome + "\n" + "Email: " + email + "\n"
+				+ "Salário " + salario + "\n";
+	}
+
+	public void reajustarSalario(double reajuste) {
+		reajuste = salario * reajuste * 100 + salario;
+	}
+
+	public void CalcularImposto(double imposto) {
+		if (salario <= 2000) {
+			imposto = salario;
+		} else if (salario > 2000 && salario <= 3000) {
+			imposto = salario + salario * 0.15;
+		} else if (salario > 3000 && salario <= 4500) {
+			imposto = salario + salario * 0.25;
+		} else if (salario > 4500) {
+			imposto = salario + salario * 0.15;
+		}
+
+	}
+
+	public int getFuncional() {
+		return funcional;
+	}
+
+	public void setFuncional(int funcional) {
+		this.funcional = funcional;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+}

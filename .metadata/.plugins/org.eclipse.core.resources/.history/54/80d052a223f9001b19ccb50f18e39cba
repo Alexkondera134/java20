@@ -1,0 +1,12 @@
+package proj_Bomba_de_Combustivel;
+
+public class Posto {
+	
+	private String nome;
+	private double preco, qtde, total;
+	
+	public combustivel (String nome, preco, qtde) {
+		thisnome.
+	}
+
+}

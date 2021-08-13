@@ -1,0 +1,15 @@
+package userinterface;
+
+import Core.BombaDeCombustivel;
+
+public class Posto {
+	public static void main(String[] args) {
+	
+		BombaDeCombustivel b1 = new BombaDeCombustivel("Gasosa", 4.50);
+		System.out.println("Dados: " b1.exibir();
+	}
+	
+	
+	
+
+}

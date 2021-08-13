@@ -1,0 +1,11 @@
+package core;
+
+public class Estudante extends Pessoa{
+	int matricula;
+	String curso;
+	
+	void exibir() {
+		System.out.println("Estudante: " + nome + "\n" + "E-mail: "+ email + "\n" + "Matricula: " + matricula + "\n" + "Curso: " + curso);
+	}
+
+}

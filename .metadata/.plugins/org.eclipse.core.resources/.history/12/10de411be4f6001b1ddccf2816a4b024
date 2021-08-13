@@ -1,0 +1,13 @@
+
+public class Operacoes {
+	public static void main(String[] args) {
+		
+		ContaCorrente cli1, cli2, cli3;
+		
+		cli1 = new ContaCorrente();
+		cli1.setNumeroConta(123456);
+		
+		
+	}
+
+}

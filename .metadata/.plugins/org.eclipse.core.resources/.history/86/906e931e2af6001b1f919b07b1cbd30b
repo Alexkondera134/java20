@@ -1,0 +1,31 @@
+
+public class Empresa {
+	public static void main(String[] args) {
+		Empregado func1;
+		Empregado func2;
+		Empregado func3;
+
+		func1 = new Empregado();
+		func2 = new Empregado();
+		func3 = new Empregado();
+
+		func1.nome = "Alex";
+		func1.cargo = "Analista";
+		func1.salario = 2000.90;
+
+		func2.nome = "Maria";
+		func2.cargo = "Analista 2";
+		func2.salario = 3000.90;
+
+		func3.nome = "José";
+		func3.cargo = "Cozinheiro";
+		func3.salario = 1500.90;
+		
+		
+		func1.imprimir();
+		func2.imprimir();
+		func3.imprimir();
+
+	}
+
+}

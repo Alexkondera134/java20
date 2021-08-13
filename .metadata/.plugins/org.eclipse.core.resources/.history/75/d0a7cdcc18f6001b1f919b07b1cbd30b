@@ -1,0 +1,35 @@
+
+public class Loja {
+	public static void main(String[] args) {
+		Carro c1;
+		Carro c2;
+		
+		c1 = new Carro();
+		c2 = new Carro();
+		
+		c1.marca = "Wolksvagem";
+		c1.modelo = "Novo fusca";
+		c1.ano = 2010;
+		c1.cor = "Azul";
+		c1.preco = 20000.99;
+		
+		
+		c2.marca = "Honda";
+		c2.modelo = "Civic";
+		c2.ano = 2020;
+		c2.cor = "Preto";
+		c2.preco = 120000;
+				
+		System.out.println("Automóvel: " +c1.marca+ " - " +c1.modelo);
+		System.out.println("      Ano: " +c1.ano);
+		System.out.println("      Cor: " +c1.cor);
+		System.out.println("    Preco: R$ " +c1.preco);
+		System.out.println("");
+		System.out.println("Automóvel: " +c2.marca+ " - " +c2.modelo);
+		System.out.println("      Ano: " +c2.ano);
+		System.out.println("      Cor: " +c2.cor);
+		System.out.println("    Preco: R$ " +c2.preco);
+		
+	}
+
+}

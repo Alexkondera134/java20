@@ -1,0 +1,17 @@
+
+public class Empresa {
+public static void main(String[] args) {
+		
+	Funcionario f1, f2, f3;
+		
+	f1 = new Funcionario();
+	f2 = new Funcionario();
+	f3 = new Funcionario();
+	
+	f1.setNome("Alex");
+	f1.setFuncional(123);
+	f1.setEmail("alex.ezequiel");
+	f1.setSalario(2000);
+	System.out.println("Dados dos funcionários: \n" + f1.exibirInfo());
+}
+}

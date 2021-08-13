@@ -1,0 +1,30 @@
+
+public class ContaCorrente {
+	
+	int numeroConta, digitoVer;
+	String nomeTitular, cpf;
+	double saldo;
+	
+	void ExibirInfo(){
+		System.out.println("Número da Conta: "+ numeroConta + " digito: "+ digitoVer);
+		System.out.println("Nome do Titular: "+ nomeTitular);
+		System.out.println("Saldo: "+ saldo);
+		
+	}
+	
+	void Depositar (double deposito){
+		saldo += deposito;
+		System.out.println("Saldo após deposito: " + saldo );
+	}
+	
+	void Sacar (double saque) {
+		if(saque > saldo){
+			System.out.println("Saldo Insuficiente. O Valor maximo de saque é: R$ " + saldo );
+					}
+		else {
+			saldo -= saque;
+			System.out.println("Saldo após saque:" + "%.2f" + saldo);
+		}
+	}
+
+}

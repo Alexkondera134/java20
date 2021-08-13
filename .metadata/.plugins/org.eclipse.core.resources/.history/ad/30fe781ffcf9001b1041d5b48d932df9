@@ -1,0 +1,22 @@
+package userinterface;
+
+import core.Chefe;
+import core.Horista;
+
+public class Pagamento {
+	public static void main(String[] args) {
+		
+		Chefe c1;
+		c1 = new Chefe(01,"Alex",30,50);
+		
+		c1.calcularSalario(500);
+		c1.exibir();
+		
+		Horista h1;
+		h1 = new Horista (10,"Roberval",180,4);
+		
+		System.out.println("Salario horista: " + h1.calcularSalario(1800));
+		
+	}
+
+}
